@@ -1,0 +1,10 @@
+matplotlib
+numpy
+pandas
+scipy
+scikit-learn
+tqdm
+ipywidgets
+joblib
+pyyaml
+python-dotenv
