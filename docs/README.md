@@ -28,9 +28,21 @@ And,though the current context applies to Jupyter Notebooks written in Python, t
 
 ### Set Up Your Python Environment
 
-- This project was created using Python 3.12, but should work for Python versions >= 3.7.
+- This project was created using Python 3.12, but should work for Python versions >= 3.9.
 
 - We recommend using a Python or Conda virtual environment to isolate this project's code to prevent it from affecting the system-installed Python.
 
 - If you name your Python or Conda environment something other than ".venv" or "venv", then be sure to add the name to the `.gitignore` file. *This step assumes you'll be using `git` for version control of this project.*
+
+## Project Deliverables
+
+While working through the project's Notebook, a total of three separate ModelKits will be packed and pushed to Jozu Hub:
+
+1. Immediately after the training and test datasets are loaded, the first ModelKit version is packed and pushed with a tag similar to: `collated-data_v1_2024-10-21_13-03-28_UTC`.
+
+2. After the data has been cleaned and processed for model training, but before any model training is done, the second ModelKit version is packed and pushed with a tag similar to: `processed-data_v2_2024-10-21_13-19-02_UTC`.
+
+3. Finally, when the model has been trained and validated, the third ModelKit version is packed and pushed with a tag similar to: `trained_model_v2_2024-10-21_13-42-49_UTC`.
+
+You can view the details for these tagged ModelKit versions by viewing your `titanic-survivability` repository in Jozu Hub.
 
