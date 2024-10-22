@@ -12,7 +12,7 @@ def kit_logout(registry: str = "jozu.ml"):
 
 def kit_unpack(repo_path_with_tag):
     command = ["kit", "unpack", "-o", repo_path_with_tag]
-    print(' '.join(command))
+    print(' '.join(command), flush=True)
     subprocess.run(command)
 
 def kit_pack(repo_path_with_tag: str):
