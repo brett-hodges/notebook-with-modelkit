@@ -7,7 +7,7 @@ def kit_logout(registry: str = "jozu.ml"):
     subprocess.run(["kit", "logout", registry])
 
 def kit_unpack(repo_path_with_tag):
-    subprocess.run(["kit", "unpack", repo_path_with_tag])
+    subprocess.run(["kit", "unpack", "-o", repo_path_with_tag])
 
 def kit_pack(repo_path_with_tag: str):
     subprocess.run(["kit", "pack", ".", "-t", repo_path_with_tag])
